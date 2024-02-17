@@ -1,0 +1,56 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('background_image.jpeg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin: 0; 
+  padding: 0; /* Remove default padding */
+  height: 100vh;
+  display: flex; /* Use flexbox to center elements */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  }
+  
+  .container {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: rgba(232, 241, 226, 0.8); /* Adding semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ad89fa;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9bbdfb;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .delete {
+    color: red;
+    cursor: pointer;
+  }
+  
